@@ -10,4 +10,7 @@ decided to only use what was available in rust out-of-the-box, which meant writi
 HTTP client/server and JSON parser. The only 2 exceptions to this rule were:
 
 - TLS, because I don't know enough about cryptography to write my own encryption layer
-- Date handling. I could have, but I was getting lazy at this point and wanted to finish the project 
+- Date handling. I could have, but I was getting lazy and wanted to finish the project quickly
+
+I didn't implement the complete HTTP and JSON specs, but wrote enough to get it working with the RTC and
+voip.ms web APIs.
